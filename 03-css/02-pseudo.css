@@ -1,8 +1,12 @@
 .container {
-  width: 600px;
+  width: 400px;
   margin: 40px auto;
 }
 
-p.paragraph::first-letter {
-  font-size: 50px;
+p::first-letter {
+  font-size: 3em;
+}
+
+p:hover {
+  background-color: lightskyblue;
 }

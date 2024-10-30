@@ -7,39 +7,45 @@
     <link rel="stylesheet" href="../_styles/styles.css" />
   </head>
   <body>
-    <h1>01 - Form</h1>
-    <form action="/submit">
-      <label for="fname"><strong>Name</strong></label>
-      <input type="text" id="fname" name="fname" placeholder="Enter Name"/>
+    <main>
+      <h1>01 - Form</h1>
+      <form action="">
+        <!-- <span>Name</span> -->
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter Name"/>
 
-      <br><br>
+        <br><br>
 
-      <label for="email">Email</label>
-      <input type="text" id="email" name="email" placeholder="Enter Email"/>
-      
-      <br><br>
-      
-      <fieldset>
-        <legend><strong>Favorite Character</strong></legend>
+        <!-- if placed in one line, it will not give it spaciing between the text and input field -->
+        <label>Email
+          <input type="text"/>
+        </label>
         
-        <div>
-          <input type="radio" id="spongebob" name="option">
-          <label for="spongebob">Spongebob</label>
-        </div>
-        <div>
-          <input type="radio" id="patrick" name="option"/>
-          <label for="patrick">Patrick</label>
-        </div>
-        <div>
-          <input type="radio" id="sandy" name="option"/>
-          <label for="sandy">Sandy</label>
-        </div>
+        <br><br>
+        
+        <fieldset>
+          <legend>Favorite Character</legend>
+          
+          <div>
+            <input type="radio" id="spongebob" name="character">
+            <label for="spongebob">Spongebob</label>
 
-      </fieldset>
-      <br />
-      <button type="submit">Submit</button>
-      <button type="reset">Reset</button>
+            <br>
 
-    </form>
+            <input type="radio" id="patrick" name="character"/>
+            <label for="patrick">Patrick</label>
+
+            <br>
+
+            <input type="radio" id="sandy" name="character"/>
+            <label for="sandy">Sandy</label>
+          </div>
+
+        </fieldset>
+        <br />
+        <button type="submit">Submit</button>
+
+      </form>
+    </main>
   </body>
 </html>
