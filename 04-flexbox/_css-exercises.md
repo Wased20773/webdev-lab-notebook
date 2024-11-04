@@ -1,6 +1,7 @@
 # Flexbox Exercises
 
-- [Exercise 01 - Flexbox](#ex1)
+- [Flexbox Exercises](#flexbox-exercises)
+  - [ Exercise 01 - Flexbox](#-exercise-01---flexbox)
 
 ## <a id="ex01"></a> Exercise 01 - Flexbox
 
